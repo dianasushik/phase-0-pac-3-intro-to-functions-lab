@@ -1,0 +1,27 @@
+function shout(string) {
+    return string.toUpperCase();
+  }
+  function whisper(string){
+    return string.toLowerCase();
+  }
+  function logShout(string) {
+    console.log(string.toUpperCase());
+  }
+  function logWhisper(string) { 
+    console.log(string.toLowerCase());
+  }
+ 
+  function sayHiToHeadphonedRoommate (string){
+    let whisper = "I can\'t hear you!";
+    let shout = "YES INDEED!";
+    let agree = "I would love to!";
+    if (string.toLowerCase(string) === string){
+      return whisper;
+    }
+    else if (string.toUpperCase(string) === string){
+      return shout;
+    }
+    else if ("Let\'s have dinner together!" === string){
+      return agree
+    }
+  }
